@@ -1,80 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="SOMMA — Gestão empresarial que transforma dados em decisões." />
-    <title>SOMMA | Gestão que impulsiona resultados</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <header class="site-header">
-      <a class="brand" href="#inicio" aria-label="SOMMA, início">
-        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
-        <span>SOMMA</span>
-      </a>
-      <nav class="desktop-nav" aria-label="Navegação principal">
-        <a href="#solucoes">Soluções</a><a href="#metodo">Nosso método</a><a href="#sobre">Sobre nós</a>
-      </nav>
-      <a class="button button-small" href="#contato">Fale com um especialista <span>↗</span></a>
-      <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
-    </header>
-
-    <main>
-      <section class="hero" id="inicio">
-        <div class="hero-copy reveal">
-          <p class="eyebrow"><span></span> Inteligência para o seu negócio</p>
-          <h1>Gestão que transforma <em>dados</em> em decisões.</h1>
-          <p class="hero-lead">Unimos estratégia, tecnologia e proximidade para simplificar a gestão e acelerar resultados sustentáveis.</p>
-          <div class="hero-actions">
-            <a class="button" href="#contato">Conheça a SOMMA <span>↗</span></a>
-            <a class="text-link" href="#solucoes">Explore nossas soluções <span>↓</span></a>
-          </div>
-        </div>
-        <div class="hero-visual reveal" aria-label="Visão de indicadores empresariais">
-          <div class="orb orb-one"></div><div class="orb orb-two"></div>
-          <div class="dashboard-card">
-            <div class="dashboard-head"><span>Visão geral</span><span class="status">● Atualizado agora</span></div>
-            <p class="muted">Resultado consolidado</p><strong class="big-number">R$ 1.248.960</strong>
-            <div class="trend"><b>↗ 18,4%</b> <span>comparado ao período anterior</span></div>
-            <div class="chart" aria-hidden="true"><span style="--h:32%"></span><span style="--h:45%"></span><span style="--h:39%"></span><span style="--h:58%"></span><span style="--h:54%"></span><span style="--h:73%"></span><span style="--h:82%"></span></div>
-            <div class="chart-labels"><span>JAN</span><span>FEV</span><span>MAR</span><span>ABR</span><span>MAI</span><span>JUN</span><span>JUL</span></div>
-          </div>
-          <div class="floating-card action-card"><span class="icon">✓</span><div><b>Planos de ação</b><small>92% concluídos</small></div></div>
-          <div class="floating-card clients-card"><span>+27</span><small>clientes ativos</small></div>
-        </div>
-        <div class="trust"><p>Empresas que evoluem com a SOMMA</p><div><b>aurora.</b><b>NÓRD</b><b>VERDE</b><b>△ ALPHA</b><b>uno.</b></div></div>
-      </section>
-
-      <section class="solutions section" id="solucoes">
-        <div class="section-heading reveal"><p class="eyebrow"><span></span> Soluções integradas</p><h2>Tudo o que sua gestão precisa, <em>em um só lugar.</em></h2></div>
-        <div class="solution-grid">
-          <article class="solution-card reveal"><span class="card-number">01</span><div class="line-icon">⌁</div><h3>Controladoria</h3><p>Indicadores claros, análises precisas e uma visão completa para decisões mais seguras.</p><a href="#contato" aria-label="Saiba mais sobre Controladoria">↗</a></article>
-          <article class="solution-card featured reveal"><span class="card-number">02</span><div class="line-icon">◎</div><h3>Gestão estratégica</h3><p>Metas, planos de ação e acompanhamento contínuo para transformar estratégia em execução.</p><a href="#contato" aria-label="Saiba mais sobre Gestão estratégica">↗</a></article>
-          <article class="solution-card reveal"><span class="card-number">03</span><div class="line-icon">◇</div><h3>Relacionamento</h3><p>Comunicação centralizada e proximidade para construir relações que geram valor.</p><a href="#contato" aria-label="Saiba mais sobre Relacionamento">↗</a></article>
-        </div>
-      </section>
-
-      <section class="method section" id="metodo">
-        <div class="method-panel reveal">
-          <p class="eyebrow light"><span></span> Nosso jeito de fazer</p><h2>Clareza para decidir.<br><em>Consistência para crescer.</em></h2>
-          <div class="method-stats"><div><strong>+12</strong><span>anos de experiência</span></div><div><strong>98%</strong><span>de satisfação</span></div><div><strong>+1,2k</strong><span>decisões apoiadas</span></div></div>
-        </div>
-      </section>
-
-      <section class="about section" id="sobre">
-        <p class="eyebrow"><span></span> Proximidade que faz diferença</p><div><h2>Mais que números.<br><em>Entendemos negócios.</em></h2><p>Na SOMMA, tecnologia e inteligência caminham juntas com uma equipe que escuta, entende e participa. Porque os melhores resultados nascem de decisões bem acompanhadas.</p></div>
-      </section>
-
-      <section class="contact section" id="contato">
-        <div><p class="eyebrow light"><span></span> Vamos conversar?</p><h2>O próximo resultado<br>começa com uma <em>boa decisão.</em></h2></div>
-        <a class="button button-light" href="mailto:contato@somma.com.br">Fale com a SOMMA <span>↗</span></a>
-      </section>
-    </main>
-    <footer><a class="brand" href="#inicio"><span class="brand-mark"><i></i><i></i><i></i></span><span>SOMMA</span></a><p>Gestão inteligente. Resultados sustentáveis.</p><p>© <span id="year"></span> SOMMA</p></footer>
-  </body>
-</html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOMMA — Consultoria Hoteleira & Condomínios</title>
+<meta name="description" content="Controladoria, BPO financeiro, auditoria e gestão de processos para hotéis, condomíínios, empresas familiares e PMEs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script></head>
+<body>
+<nav class="site-nav" aria-label="Navegação principal"><div class="wrap nav-inner"><a class="nav-brand" href="#inicio">SOMMA</a><div class="nav-links"><a href="#sobre">Quem somos</a><a href="#cases">Cases</a><a href="#servicos">Serviços</a><a href="#metodologia">Metodologia</a><a class="nav-cta" href="https://wa.me/5592982137652?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20SOMMA%20e%20gostaria%20de%20conversar%20sobre%20uma%20consultoria." target="_blank" rel="noopener">Falar no WhatsApp</a></div><button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button></div></nav>
+<header class="hero" id="inicio">
+  <svg class="skyline-deco" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="150" cy="150" r="80" fill="#C69A1E" opacity="0.9"/>
+    <path d="M40 160 L80 120 L120 160" stroke="#fff" stroke-width="2.5" fill="none"/>
+    <rect x="95" y="90" width="30" height="90" stroke="#fff" stroke-width="2.5" fill="none"/>
+    <rect x="140" y="60" width="45" height="120" stroke="#fff" stroke-width="2.5" fill="none"/>
+    <rect x="195" y="110" width="35" height="70" stroke="#fff" stroke-width="2.5" fill="none"/>
+    <path d="M90 190 Q150 170 210 190" stroke="#fff" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M90 205 Q150 185 210 205" stroke="#fff" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M90 220 Q150 200 210 220" stroke="#fff" stroke-width="2" fill="none" opacity="0.3"/>
+  </svg>
+  <div class="wrap hero-inner">
+    <div class="brand-row"><div class="brand-mark"></div><div><div class="brand-name">SOMMA</div><div class="brand-sub">Consultoria Hoteleira &amp; Condomínios</div></div></div>
+    <span class="eyebrow">Cartilha de Serviços</span>
+    <h1>Gestão financeira, controladoria e processos<br><em>para negócios que precisam profissionalizar sua operação.</em></h1>
+    <p class="lead">Unimos controladoria, BPO financeiro premium e experiência executiva em hotelaria e condomínios para transformar rotinas desorganizadas em gestão clara, mensurável e replicável.</p>
+    <div class="hero-tags"><span class="tag">Controladoria &amp; BPO Financeiro</span><span class="tag">Gestão de Processos</span><span class="tag">Auditoria &amp; Riscos</span><span class="tag">Hotelaria &amp; Condomínios</span></div>
+  </div>
+</header>
+<section class="alt" id="sobre"><div class="wrap"><div class="section-head"><span class="eyebrow">Quem somos</span><h2>Duas expertises, uma só entrega</h2><p>A SOMMA nasce da união de duas trajetórias complementares — uma voltada para números e controle, outra voltada para operação e pessoas.</p></div><div class="founders"><div class="founder-card reveal"><span class="role">Controladoria &amp; Finanças</span><p>Base sólida em contabilidade, controladoria, BPO financeiro, auditoria e análise financeira.</p><ul><li>Implantação de controladoria e processos financeiros</li><li>Auditoria financeira e operacional</li><li>Estruturação de fluxo de caixa e centros de custo</li><li>Leitura crítica de planilhas e indicadores</li></ul></div><div class="founder-card reveal"><span class="role">Operação &amp; Gestão Executiva</span><p>Ampla vivência em hotelaria, condomínios, recuperação de empresas e governança.</p><ul><li>Gestão geral e liderança estratégica</li><li>Recuperação de empresas e turnaround operacional</li><li>Relacionamento com investidores e governança</li><li>Melhoria contínua de processos e equipes</li></ul></div></div><div class="synthesis">Essa combinação permite que a SOMMA não entregue apenas números organizados, mas decisões melhores: diagnostica a causa raiz, redesenha o processo e acompanha a implantação até o resultado aparecer na operação do cliente.</div></div></section>
+<section><div class="wrap"><div class="section-head"><span class="eyebrow">Por que a SOMMA</span><h2>Um posicionamento consultivo, não um BPO comum</h2><p>Não vendemos apenas lançamento de dados. Vendemos controle, previsibilidade e processos que sustentam o crescimento do negócio.</p></div><div class="diff-grid"><div class="diff-card reveal"><span class="diff-num">01</span><h4>Diagnóstico antes da execução</h4><p>Toda entrega parte de um diagnóstico financeiro, operacional e de processos — nunca de um pacote genérico.</p></div><div class="diff-card reveal"><span class="diff-num">02</span><h4>Análise e implantação juntas</h4><p>Mapeamos, redesenhamos e acompanhamos a adoção do processo — não entregamos só um relatório.</p></div><div class="diff-card reveal"><span class="diff-num">03</span><h4>Vivência real de operação</h4><p>Conhecimento prático de hotelaria, condomínios e negócios familiares, não apenas teoria de consultoria.</p></div><div class="diff-card reveal"><span class="diff-num">04</span><h4>Indicadores que geram decisão</h4><p>Cada número entregue está conectado a uma decisão de gestão, não apenas a uma planilha bonita.</p></div><div class="diff-card reveal"><span class="diff-num">05</span><h4>Redução de dependência do dono</h4><p>Estruturamos rotinas e responsáveis para que a empresa funcione sem depender de uma única pessoa.</p></div><div class="diff-card reveal"><span class="diff-num">06</span><h4>Relacionamento recorrente</h4><p>Acompanhamento mensal e melhoria contínua, para que o ganho de controle não se perca com o tempo.</p></div></div></div></section>
+<section class="region" id="cases"><div class="wrap"><div class="section-head"><span class="eyebrow">Onde já atuamos</span><h2>Atuação nas regiões Norte e Sul do Brasil</h2><p>Da região Norte (Manaus/AM e Belém/PA) à região Sul (Gravataí/RS e Itapema/SC), a SOMMA já estruturou controladoria, auditoria e BPO financeiro para hotéis, condomínios, agências de turismo e negócios familiares. Além da hotelaria e condomínios, atendemos também empresas familiares e pequenos negócios que precisam profissionalizar sua gestão financeira e administrativa.</p></div><div class="case-grid"><div class="case-card reveal"><span class="case-tag">Hotelaria · Controladoria</span><h4>Tucumã Hotel — Itapiranga/AM</h4><div class="case-stat">255 <span>UHs ativas</span></div><p>Estruturação completa da controladoria em 6 meses, com implantação de processos financeiros, ajuste e auditoria financeira do exercício de 2025. Atualmente seguimos como <strong>controladoria interina</strong> do hotel.</p></div><div class="case-card reveal"><span class="case-tag">Turismo · BPO Financeiro</span><h4>Poranduba Amazônia</h4><div class="case-stat">Desde <span>11/2025</span></div><p>BPO financeiro contínuo para agência de turismo de base comunitária, com organização de rotinas financeiras, fluxo de caixa e relatórios gerenciais.</p></div><div class="case-card reveal"><span class="case-tag">Hotelaria · Consultoria Estratégica</span><h4>Hotelaria Brasil — Infinity Tower Flat — Itapema/SC</h4><div class="case-stat">153 <span>apartamentos</span></div><p>Auditoria financeira e operacional do exercício 2023/2024, com elaboração do relatório de prestação de contas, reorganização de processos e estudo de viabilidade para terceirização de serviços, apoiando as decisões estratégicas da administradora.</p></div><div class="case-card reveal"><span class="case-tag">Hotelaria · Turnaround Financeiro</span><h4>Condomínio Hotel Shopping Gravataí — Gravataí/RS</h4><div class="case-stat">130 <span>apartamentos</span></div><p>Implantação de projeto de recuperação financeira, com otimização dos custos de compras, fortalecimento dos controles de receita e reestruturação dos processos operacionais, apoiando a reversão do déficit e a retomada da saúde financeira do empreendimento.</p></div><div class="case-card reveal"><span class="case-tag">Consultoria Empresarial · BPO Financeiro</span><h4>Favareto Soluções — SC</h4><div class="case-stat">08/2024 <span>a 01/2025</span></div><p>Especialista em manutenção predial, zeladoria, limpeza e portaria. Organização das rotinas administrativas, estruturação do fluxo de caixa, implantação de controles de Departamento Pessoal e execução dos serviços de BPO Financeiro na operação de Manaus.</p></div></div><div class="region-note">Presença consolidada nas regiões <strong>Norte</strong> e <strong>Sul</strong> do Brasil, com atuação em hotelaria, condomínios, turismo e também em <strong>empresas familiares e pequenos negócios</strong> que buscam profissionalizar sua gestão.</div></div></section>
+<section class="alt"><div class="wrap"><div class="section-head"><span class="eyebrow">Para quem atendemos</span><h2>Segmentos prioritários</h2></div><div class="seg-strip"><span class="seg-pill gold">Hotéis</span><span class="seg-pill gold">Pousadas</span><span class="seg-pill gold">Flats</span><span class="seg-pill">Condomínios residenciais</span><span class="seg-pill">Condomínios comerciais</span><span class="seg-pill">Administradoras de condomínios</span><span class="seg-pill">Empresas familiares</span><span class="seg-pill">PMEs em crescimento</span><span class="seg-pill">Negócios sem controladoria estruturada</span><span class="seg-pill">Empresas com inadimplência ou aperto de caixa</span></div></div></section>
+<section id="servicos"><div class="wrap"><div class="section-head"><span class="eyebrow">Portfólio</span><h2>Serviços SOMMA</h2><p>Organizados em quatro frentes que podem ser contratadas isoladamente ou de forma combinada.</p></div>
+<div class="service-block"><div class="service-block-head"><span class="eyebrow">01</span><h3>Diagnóstico &amp; Auditoria</h3></div><div class="service-grid"><div class="service-item"><h5>Diagnóstico financeiro</h5><p>Leitura completa da saúde financeira: caixa, contas a pagar/receber, inadimplência e margens.</p></div><div class="service-item"><h5>Diagnóstico operacional</h5><p>Avaliação da operação do dia a dia, gargalos e dependência de pessoas-chave.</p></div><div class="service-item"><h5>Diagnóstico de processos</h5><p>Mapeamento de rotinas existentes, responsáveis, falhas de controle e retrabalho.</p></div><div class="service-item"><h5>Auditoria financeira e operacional</h5><p>Verificação de conformidade, consistência de dados e riscos de controle interno.</p></div><div class="service-item"><h5>Auditoria de processos</h5><p>Checagem de aderência das equipes às rotinas definidas e identificação de desvios.</p></div><div class="service-item"><h5>Análise de riscos</h5><p>Mapeamento de riscos financeiros, operacionais e de gestão, com plano de mitigação.</p></div></div></div>
+<div class="service-block"><div class="service-block-head"><span class="eyebrow">02</span><h3>Controladoria &amp; BPO Financeiro Premium</h3></div><div class="service-grid"><div class="service-item"><h5>Implantação de controladoria</h5><p>Estrutura de controle financeiro sob medida, com rotinas e periodicidade definidas.</p></div><div class="service-item"><h5>BPO financeiro premium</h5><p>Operação financeira terceirizada com padrão consultivo — não apenas execução.</p></div><div class="service-item"><h5>Organização de contas a pagar</h5><p>Padronização de fluxo de aprovação, pagamento e conciliação.</p></div><div class="service-item"><h5>Organização de contas a receber</h5><p>Rotina de cobrança, régua de inadimplência e controle de recebíveis.</p></div><div class="service-item"><h5>Fluxo de caixa e conciliação bancária</h5><p>Projeção de caixa, conciliação periódica e alertas de risco de liquidez.</p></div><div class="service-item"><h5>Estruturação de centros de custo</h5><p>Organização de custos por área para leitura real de rentabilidade.</p></div></div></div>
+<div class="service-block"><div class="service-block-head"><span class="eyebrow">03</span><h3>Gestão de Processos</h3></div><div class="service-grid"><div class="service-item"><h5>Mapeamento de processos</h5><p>Levantamento do processo atual: etapas, responsáveis, entradas e saídas.</p></div><div class="service-item"><h5>Redesenho de processos</h5><p>Construção do processo ideal, eliminando gargalos e retrabalho.</p></div><div class="service-item"><h5>Padronização de rotinas e POPs</h5><p>Criação de Procedimentos Operacionais Padrão e checklists de execução.</p></div><div class="service-item"><h5>Matriz de responsabilidades</h5><p>Definição clara de quem faz, quem aprova e quem é informado em cada etapa.</p></div><div class="service-item"><h5>Indicadores de processo</h5><p>Métricas para medir eficiência, prazo e qualidade das rotinas implantadas.</p></div><div class="service-item"><h5>Implantação assistida e melhoria contínua</h5><p>Acompanhamento prático da adoção, com ajustes mensais de processo.</p></div></div></div>
+<div class="service-block"><div class="service-block-head"><span class="eyebrow">04</span><h3>Relatórios, Indicadores &amp; Hotelaria/Condomínios</h3></div><div class="service-grid"><div class="service-item"><h5>Relatórios gerenciais</h5><p>Painéis executivos para apoiar decisões financeiras e operacionais.</p></div><div class="service-item"><h5>Indicadores de desempenho</h5><p>KPIs financeiros, operacionais e de processo acompanhados periodicamente.</p></div><div class="service-item"><h5>Administração de condomínios</h5><p>Gestão financeira e administrativa completa de condomínios residenciais e comerciais.</p></div><div class="service-item"><h5>Consultoria para hotelaria e condomínios</h5><p>Expertise específica em governança, operação e rentabilidade do setor.</p></div><div class="service-item"><h5>Treinamento de equipes</h5><p>Capacitação prática das equipes nas rotinas e ferramentas implantadas.</p></div><div class="service-item"><h5>Apoio à tomada de decisão</h5><p>Leitura de cenários e recomendações para decisões de gestão e rentabilidade.</p></div><div class="service-item"><h5>Consultoria para melhoria de rentabilidade</h5><p>Ações direcionadas para elevar margem e eficiência do negócio.</p></div></div></div></div></section>
+<section class="flow" id="metodologia"><div class="wrap"><div class="section-head"><span class="eyebrow">Como trabalhamos</span><h2>Metodologia de implantação</h2><p>Um caminho estruturado do diagnóstico até a melhoria contínua, aplicável tanto a finanças quanto a processos.</p></div><div class="flow-steps"><div class="flow-step" data-n="01"><h5>Diagnóstico</h5><p>Levantamento financeiro, operacional e de processos.</p></div><div class="flow-step" data-n="02"><h5>Mapeamento</h5><p>Identificação de gargalos, riscos e retrabalhos.</p></div><div class="flow-step" data-n="03"><h5>Redesenho</h5><p>Construção do processo e controle ideal.</p></div><div class="flow-step" data-n="04"><h5>Implantação</h5><p>Definição de responsáveis e rotina padronizada.</p></div><div class="flow-step" data-n="05"><h5>Acompanhamento</h5><p>Indicadores e melhoria contínua mensal.</p></div></div></div></section>
+<section class="alt"><div class="wrap"><div class="section-head"><span class="eyebrow">Formatos de contratação</span><h2>Como o cliente pode começar</h2></div><div class="model-grid"><div class="model-card"><span class="model-tag">Ponto de entrada</span><h4>Diagnóstico Inicial</h4><p>Projeto pontual de diagnóstico financeiro, operacional e de processos, com relatório executivo e priorização de ações.</p><div class="ideal">Ideal para: primeiro contato com o cliente</div></div><div class="model-card featured"><span class="model-tag">Mais contratado</span><h4>BPO Financeiro Premium</h4><p>Operação financeira contínua com controladoria, relatórios mensais e acompanhamento consultivo recorrente.</p><div class="ideal">Ideal para: empresas sem estrutura financeira interna</div></div><div class="model-card"><span class="model-tag">Alta recorrência</span><h4>Gestão de Processos Contínua</h4><p>Mapeamento, redesenho, implantação e acompanhamento mensal de processos financeiros, administrativos e operacionais.</p><div class="ideal">Ideal para: empresas em crescimento ou reestruturação</div></div></div></div></section>
+<div class="cta" id="contato"><div class="wrap"><h2>Vamos organizar a gestão do seu negócio</h2><p>Comece com um diagnóstico e descubra em quais frentes a SOMMA pode gerar mais controle, previsibilidade e rentabilidade.</p><div class="contact-people"><div class="contact-person"><strong>Raisa da Silva Pereira</strong><span>Controladoria &amp; Finanças</span><a class="contact-link" href="https://wa.me/5592982137652?text=Ol%C3%A1%2C%20Raisa.%20Vim%20pelo%20site%20da%20SOMMA%20e%20gostaria%20de%20conversar%20sobre%20uma%20consultoria." target="_blank" rel="noopener">WhatsApp: (92) 98213-7652</a><a class="contact-link" href="mailto:raisa.pereira.92@hotmail.com">raisa.pereira.92@hotmail.com</a></div><div class="contact-person"><strong>Fabiana Amaral</strong><span>Operação &amp; Gestão Executiva</span><a class="contact-link" href="https://wa.me/5592984455270?text=Ol%C3%A1%2C%20Fabiana.%20Vim%20pelo%20site%20da%20SOMMA%20e%20gostaria%20de%20conversar%20sobre%20uma%20consultoria." target="_blank" rel="noopener">WhatsApp: +55 92 98445-5270</a><a class="contact-link secondary-contact" href="https://wa.me/5551982700215?text=Ol%C3%A1%2C%20Fabiana.%20Vim%20pelo%20site%20da%20SOMMA%20e%20gostaria%20de%20conversar%20sobre%20uma%20consultoria." target="_blank" rel="noopener">WhatsApp RS: +55 51 98270-0215</a><a class="contact-link" href="mailto:fabianaamaral1111@gmail.com">fabianaamaral1111@gmail.com</a></div></div></div></div>
+<footer><div class="wrap"><div class="fbrand">SOMMA — CONSULTORIA HOTELEIRA &amp; CONDOMÍNIOS</div><div>Controladoria · BPO Financeiro · Auditoria · Gestão de Processos</div></div></footer>
+</body></html>
