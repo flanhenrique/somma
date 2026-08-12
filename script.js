@@ -5,23 +5,21 @@ nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classL
 const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}}),{threshold:.08});
 document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
 
-// Garante que a logo SOMMA em alta qualidade fique visível nos fundos escuros.
-// Mantém o arquivo HQ como principal e usa o SVG apenas como fallback de carregamento.
-const sommaLogos=document.querySelectorAll('img[src*="logo-somma-hq"]');
+// Usa a nova identidade vetorial da SOMMA em alta qualidade, sem fundo e sem pixelização.
+const sommaLogos=document.querySelectorAll('img[src*="logo-somma"]');
 sommaLogos.forEach((img,index)=>{
-  img.src='assets/logo-somma-hq.webp?v=20260812-2';
+  img.src='assets/logo-somma-premium.svg?v=20260812-1';
   img.style.objectFit='contain';
   img.style.imageRendering='auto';
-  img.style.background='#f4efe7';
-  img.style.padding=index===0?'5px 9px':'10px 14px';
-  img.style.borderRadius='6px';
-  img.style.boxShadow='0 8px 24px rgba(0,0,0,.18)';
-  img.addEventListener('error',()=>{
-    if(!img.dataset.fallback){
-      img.dataset.fallback='1';
-      img.src='assets/logo-somma.svg?v=20260812-2';
-    }
-  },{once:false});
+  img.style.background='transparent';
+  img.style.padding='0';
+  img.style.borderRadius='0';
+  img.style.boxShadow='none';
+  if(index===0){
+    img.style.width='min(270px,60vw)';
+  }else{
+    img.style.width='min(520px,92%)';
+  }
 });
 
 // CTA flutuante no mobile: surge quando os botões principais saem da tela.
